@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import { alertActions } from "./_actions/alert.actions";
+import { connect } from "react-redux";
 
 function App() {
   return (
